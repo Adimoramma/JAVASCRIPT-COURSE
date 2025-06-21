@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXERCIE SIX</title>
+</head>
+<body>
+  
+
+  <script>
+// this if for greetings
+    let hour = '18';
+    let name = 'Adimoramma';
+
+    if (hour >= 6 && hour < 12) {
+      console.log(`Good morning ${name}.`);
+    } else if (hour >= 13 && hour < 17) {
+      console.log(`Good afternoon ${name}.`);
+    } else {
+      console.log(`Good night ${name}.`);
+    }
+
+/*
+this if for a discount in an amusement park based on age
+*/
+    let age = '77';
+
+    if (age <= 6 || age >= 65) {
+      console.log('Discount.');
+    } else {
+      console.log('No discount.');
+    }
+
+/*
+this if for a discount in an amusement park based on age and holiday time.
+*/
+let isHoliday = true;
+if ((age <= 6 || age >= 65) && isHoliday) {
+  console.log('Discount.');
+} else {
+  console.log('No discount.');
+}
+  </script>
+</body>
+</html>
